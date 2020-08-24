@@ -5,6 +5,11 @@ class Shoe
   end
   def cobble
     puts "Your shoe is as good as new!"
-    shoe.
+    Shoe.condition = "new"
   end
 end
+
+adidas = Shoe.new("adidas")
+adidas.condition= ("old")
+adidas.cobble
+puts adidas.condition
